@@ -4,22 +4,25 @@ AI in Python that converts selected image into the same image in an art style of
 ## Setup
 ### Install python
 ```
-sudo apt install python python-dev python3.6 python3.6-dev python-tk protobuf-compiler 
-sudo apt install python-pip python3-pip 
-sudo apt-get install python3 python-dev python3-dev \
+sudo apt install -y python python-dev python3.6 python3.6-dev python3.7 python3.7-dev python-tk protobuf-compiler 
+sudo apt install -y python-pip python3-pip 
+sudo apt-get install -y python3 python-dev python3-dev \
      build-essential libssl-dev libffi-dev \
      libxml2-dev libxslt1-dev zlib1g-dev \
      python-pip
 sudo apt-get install -y python-h5py
 sudo apt-get install -y python3-h5py
+sudo apt install -y python-apt
+sudo apt install -y python3-apt
 ```
 ### Upgrade setuptools
-```
-pip3 install --upgrade setuptools
-```
-Install testresources if missing
+Install testresources
 ```
 pip3 install testresources
+```
+Then upgrade setuptools
+```
+pip3 install --upgrade setuptools
 ```
 ### Install the dependencies
 ```
@@ -27,35 +30,15 @@ sudo apt-get install -y libpng-dev libtiff-dev libwebp-dev xcftools
 pip3 install sklearn
 pip3 install numpy
 pip3 install argparse
-pip3 install h5py==2.7.1
-pip3 install keras==2.0.5
+pip3 install h5py
+pip3 install keras
 pip3 install conda
 pip3 install pillow
 pip3 install theano
 pip3 install imread
-pip3 install scipy==1.1.0
-pip3 install scikit-image==0.15.0
-pip3 install tensorflow==1.5
-```
-If a different version of scipy gets installed remove it and replace with 1.1.0
-```
-pip3 uninstall scipy
-pip3 install scipy==1.1.0
-```
-Do the same for keras
-```
-pip3 uninstall keras
-pip3 install keras==2.0.5
-```
-Do the same for h5py
-```
-pip3 uninstall h5py
-pip3 install h5py==2.7.1
-```
-Do the same for scikit-image
-```
-pip3 uninstall scikit-image
-pip3 install scikit-image==0.15.0
+pip3 install scipy
+pip3 install scikit-image
+pip3 install tensorflow
 ```
 ## Usage
 
