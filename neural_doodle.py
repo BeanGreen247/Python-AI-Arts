@@ -14,6 +14,20 @@ from keras.models import Model
 from keras.preprocessing.image import load_img, img_to_array
 from keras.applications import vgg16
 
+"""
+Neural Doodle in Keras using Keras 1.2.2
+
+Based on the original script available at : https://github.com/fchollet/keras/blob/master/examples/neural_doodle.py
+
+References:
+[Dmitry Ulyanov's blog on fast-neural-doodle](http://dmitryulyanov.github.io/feed-forward-neural-doodle/)
+[Torch code for fast-neural-doodle](https://github.com/DmitryUlyanov/fast-neural-doodle)
+[Torch code for online-neural-doodle](https://github.com/DmitryUlyanov/online-neural-doodle)
+[Paper Texture Networks: Feed-forward Synthesis of Textures and Stylized Images](http://arxiv.org/abs/1603.03417)
+[Discussion on parameter tuning](https://github.com/fchollet/keras/issues/3705)
+
+"""
+
 # Command line arguments
 parser = argparse.ArgumentParser(description='Keras neural doodle example')
 parser.add_argument('--nlabels', type=int,help='number of semantic labels (regions in differnet colors)'

@@ -14,6 +14,25 @@ from keras.models import Sequential
 from keras.layers.convolutional import Convolution2D, ZeroPadding2D, AveragePooling2D
 from keras import backend as K
 
+"""
+Neural Style Transfer with Keras 1.0.6
+
+Uses the VGG-16 model as described in the Keras example below :
+https://github.com/fchollet/keras/blob/master/examples/neural_style_transfer.py
+
+Note:
+
+Before running this script, download the weights for the VGG16 model at:
+https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view?usp=sharing
+(source: https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3)
+and make sure the variable `weights_path` in this script matches the location of the file.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+"""
+
+
+
 def _calc_patch_grid_dims(shape, patch_size, patch_stride):
     x_w, x_h, x_c = shape
     num_rows = 1 + (x_h - patch_size) // patch_stride
