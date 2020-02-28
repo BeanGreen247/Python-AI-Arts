@@ -77,9 +77,8 @@ $python3.6 Network.py ~/Pictures/AIArtConversion/scotland-castle.jpg ~/Pictures/
 [MEGA.nz](https://mega.nz/#F!f9tTQKrI!QWYYvLEzRpvd8Mjn5Jt9iw)
 
 ## Convolutional Network Used
-[VGG16](https://neurohive.io/en/popular-networks/vgg16/)
-
-[VGG19](https://www.mathworks.com/help/deeplearning/ref/vgg19.html)
+[VGG16-info](https://www.mathworks.com/help/deeplearning/ref/vgg16.html)
+[VGG19-info](https://www.mathworks.com/help/deeplearning/ref/vgg19.html)
 
 [Very Deep Convoltional Networks for Large-Scale Image Recognition by Karen Simonyan & Andrew Zisserman](https://arxiv.org/pdf/1409.1556.pdf)
 
