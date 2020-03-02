@@ -85,4 +85,4 @@ $python3.6 Network.py ~/Pictures/AIArtConversion/scotland-castle.jpg ~/Pictures/
 
 Karen Simonyan & Andrew Zisserman. Very Deep Convoltional Networks for Large-Scale Image Recognition. PDF file. April 10 2015
 
-https://arxiv.org/pdf/1409.1556.pdf
+[Generalizing Pooling Functions in Convolutional Neural Networks : Mixed, Gated, and Tree](https://arxiv.org/pdf/1509.08985.pdf)
