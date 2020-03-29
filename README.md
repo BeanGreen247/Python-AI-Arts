@@ -71,7 +71,7 @@ python3.6 Network.py "/path/to/content image" "path/to/style image" "result pref
 ```
 Example
 ```
-$python3.6 Network.py ~/Pictures/AIArtConversion/scotland-castle.jpg ~/Pictures/AIArtConversion/modernism.jpg ~/Pictures/AIArtConversion/result.jpg
+python3.6 Network.py ~/Pictures/AIArtConversion/scotland-castle.jpg ~/Pictures/AIArtConversion/modernism.jpg ~/Pictures/AIArtConversion/result.jpg
 ```
 ## Sample output
 [MEGA.nz](https://mega.nz/#F!f9tTQKrI!QWYYvLEzRpvd8Mjn5Jt9iw)
